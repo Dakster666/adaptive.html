@@ -1,0 +1,38 @@
+.container {
+    border: 2px solid red;
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+
+}
+
+.item {
+width: 100px;
+height: 100px;
+background: orangered;
+margin: 10px;
+font-size: 50px;
+text-align: center;
+}
+
+
+.container2 {
+    border: 1px solid black;
+    margin: 50px;
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.item2 {
+    background: orange;
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+}
